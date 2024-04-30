@@ -1,0 +1,28 @@
+#box1{
+    height: 150px;
+    width: 150px;
+    border: 5px dotted red;
+    margin: 10px;
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+/* #box1:hover{
+    height: 200px;
+    width: 200px; 
+    border: 5px solid rgb(47, 29, 210);
+    background-color: darkgoldenrod; 
+} */
+#box2{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(25, 198, 100);
+
+    margin-top: 180px;
+
+}
+
+#box1:hover #box2{
+    border: 2px dashed black;
+}
