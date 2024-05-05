@@ -1,0 +1,40 @@
+#box-1{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#box-2{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+
+#box-1:hover{
+    background-color: cadetblue;
+}
+
+@media (max-width:250px) {
+    #box-1{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(21, 7, 103);
+        border: 1px solid black;
+    }
+    #box-2{
+        display: none;
+    }
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 1px dashed green;
+    cursor: pointer;
+}
